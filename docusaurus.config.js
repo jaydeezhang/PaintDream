@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Jie Zhang Design',
+  tagline: 'I am Jie Zhang. I am a product designer trying to find design solutions in a complex business environment. My thinking method is combined with the designer, developer, and product manager’s perspectives.  I hope to provide every user with a better and more comfortable digital experience.   ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://jaydeezhang.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ttpdoc/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -62,26 +62,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/pds logo.png',
       navbar: {
-        title: 'My Site',
+        title: 'Platform Design System',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/pds logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Component',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Newsletter', position: 'left'},
         ],
       },
       footer: {
@@ -97,24 +92,24 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Works',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Edison',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'TikHawk',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: 'Datapower',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Blog',
             items: [
               {
                 label: 'Blog',
@@ -127,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jie Zhang Design Space, made by Jie Zhang.`,
       },
       prism: {
         theme: lightCodeTheme,
